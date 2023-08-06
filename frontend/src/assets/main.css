@@ -1,0 +1,65 @@
+@import './base.css';
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--color1);
+    line-height: 25px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--color1);
+}
+
+a:hover {
+    color: var(--color2);
+}
+
+.post-meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    opacity: .7;
+    text-transform: uppercase;
+}
+.post-resume {
+    margin: 5px 0 10px 0;
+    text-align: justify;
+}
+
+footer {
+    margin: 50px 0 20px 0;
+}
+
+@media screen and (max-width: 1040px) {
+    .container {
+        padding: 0 20px;
+    }
+}
